@@ -1,0 +1,207 @@
+
+@import "style.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+:root{
+    --main--color: #15743d;
+    --second--color: #15743d;
+}
+/*start my class*/
+.main_text{
+    color: var(--main--color);
+}
+.main_bg{
+    background: var(--second--color);
+}
+.main_link{
+    color: #000;
+}
+.main_link:hover{
+    color: var(--main--color);
+}
+.main_link_1{
+    color: var(--main--color);
+}
+.main_link_1:hover{
+    color: var(--main--color);
+    box-shadow: 0px 3px var(--main--color);
+}
+.main_bt{
+    color: #000;
+    background: #FFF
+}
+.main_bt:hover{
+    color: #FFF;
+    background: var(--main--color)
+}
+.last_bt{
+    color: #FFF;
+    background: var(--main--color)
+}
+.last_bt:hover{
+    color: var(--main--color);
+    background: #FFF
+}
+.main_bordrer{
+    border: 2px solid var(--main--color)
+}
+.thin_border{
+    border: 1px solid var(--main--color)
+}
+.teny_size{
+    font-size: 13px
+}
+.main_bold{
+    font-weight: 600
+}
+/*end my class*/
+/*start default class*/
+body{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+.container-fluid{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.point{
+    cursor: pointer;
+}
+.transition-me{
+    -weebkit-transition: all 0.2s ease-in-out;
+    -noz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.index_over{
+    z-index: 100
+}
+button,
+select,
+input,
+textarea{
+    outline: none
+}
+button:focus{
+    outline: none
+}
+.rounded{
+    border-radius: 10px !important
+}
+.oppacity{
+    opacity: 0.7
+}
+.carousel-control-prev, .carousel-control-next{
+    opacity: 1 !important;
+    width: 7%
+}
+[class^="icon-"], [class*=" icon-"]{
+    margin-bottom: 0px
+}
+/*end default class*/
+/*strat main-slider*/
+.main_slider .main_bg.p-2{
+    background: #15743d;
+    color: #FFF
+}
+.main_slider .main_bg.p-2:hover{
+    background: #FFF;
+    color: #15743d
+}
+.main_slider .div#carouselExampleControls{
+    height: 400px;
+}
+.main_slider .carousel-inner{
+    height: 400px;
+}
+/*end main-slider*/
+/*start Board of Directors*/
+.board{
+    background: url('../img/Rectangle 3.png ');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*end Board of Directors*/
+/*start center section*/
+.our_gool{
+    background: url('../img/Rectangle 7.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*end center section*/
+/*start project*/
+.projects .thin_border.rounded.overflow-hidden:hover img{
+    transform: scale(1.3, 1.3) rotate(15deg)
+}
+.projects .thin_border.rounded.overflow-hidden .body_card:hover h6{
+    color: var(--main--color)
+}
+/*end project*/
+/*start media_center*/
+.media_center .thin_border.rounded.overflow-hidden:hover img{
+    transform: scale(1.3, 1.3)
+}
+.media_center .thin_border.rounded.overflow-hidden .body_card:hover h6{
+    color: var(--main--color)
+}
+/*end media_center*/
+/*start breadcrumb*/
+.bread{
+    background: url('../img/Rectangle 2.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    padding: 0px 12px;
+    color: #ffffff;
+}
+/*end breadcrumb*/
+/*start Donation*/
+.donation .card.thin_border.rounded:hover img{
+    transform: scale(1.3, 1.3)
+}
+.donation .card.thin_border.rounded .body_card_1:hover h6{
+    color: var(--main--color)
+}
+/*end Donation*/
+/*start new account*/
+.new i.icon-phone8.main_text.h3.position-absolute{
+    top: 8px;
+    right: 14px
+}
+.new i.icon-lock-closed2.main_text.h4.position-absolute{
+    top: 8px;
+    right: 12px
+}
+/*end new account*/
+/*start common*/
+.common .inside{
+    display: none
+}
+/*end common*/
+
+
+
+
+
+

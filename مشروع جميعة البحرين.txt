@@ -1,0 +1,43 @@
+website (Ar - EN)
+
+slider (id - image - display - date) 								    (done)
+
+directors(id - name_ar - name_en - Position_ar - Position_en - Image - display - date) 		    (done)
+
+Founders(id - image - name_en  - name_ar - Position_en - position_ar - display - date)		    (done)
+
+committees (id - name_en - name_ar - position_en - position_ar - title_en - title_ar - desc_en - desc_ar - image - display - date) (done)
+
+donate_type (id  name - display ) 								    (done)
+
+donates (id - title_ar - title_en - image - type_id - price - display - date) 			    (done)
+
+Common Questions (id - title_en - title_ar - desc_en - desc_ar - display - date)		    (done)
+
+news(id - title_en  title_ar - desc_en - desc_ar - image - display - date)			    (done)
+
+add_client(id - name - phone - email - address - password - date)				    (done)
+
+payment(id - title_en - title_ar - display)							    (done)
+
+cart (id - client_id - donate_id - price - notes -date) 		
+
+order(id - donate_type - client_id[nullable] - payment_method - cart_id - donate_id[as array] - total_price - date)
+
+media_center(id - title_ar - title_en - desc_ar - desc_en - image - display - date)		    (done)
+
+about(id - title_are - title_en )
+
+standared : about_philanthropic(id - title_en - title_ar - dec_ar - desc_en - display - date)
+
+board_members(id - image - name_en  - name_ar - Position  - display - date)			    (done)
+
+events_activites(id - title_en - title_ar - desc_en - desc_ar - image - display - date)		    (done)
+
+magazine (id - image - date) like gallery 							    (done)
+
+messages (id - name - email - address - content - date)						    (done)
+
+contact_us (id - lat - long - address_en - address_ar - phone - email) 
+
+settings(id - facebook - instgram - twitter - copyright_name_ar - copyright_name_en - header_logo - section_image -section_desc)     (done)

@@ -1,0 +1,19 @@
+project details 
+
+CPanel
+
+http://bh-philanthropic.org:2082
+
+user_name :- bhphilanthropic
+
+password :- Hy]m(lLDO=_I
+
+
+
+Database 
+
+database_name :- bhphilanthropic_system
+
+user_name     :- bhphilanthropic_system
+
+password      :- 2zeF^K@3l7&@

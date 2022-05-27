@@ -1,0 +1,54 @@
+/*start navbar*/
+a.navbar-brand{
+    width: 20%
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: var(--main--color)
+}
+.navbar .end_nav .dropdown-toggle::before{
+    border: none
+}
+.navbar .dropdown-toggle::after{
+    border: none
+}
+.navbar .dropdown-toggle::before{
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 15px
+}
+.nav_bt{
+    font-size: 13px
+}
+.last_nav .position-absolute.w-100{
+    right: 190px;
+    top: -15px;
+}
+
+/*end navbar*/
+/*start footer*/
+.link_footer{
+    color: #FFF;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.link_footer:hover{
+    color: #FFF;
+    font-weight: bold;
+    opacity: 1;
+    box-shadow: 0px 3px #FFF;
+}
+.dropdown-item:hover, .dropdown-item:focus,
+.dropdown-item.active, .dropdown-item:active{
+    background-color: var(--second--color);
+    color: #FFF;
+    outline: none;
+}
+/*end footer*/

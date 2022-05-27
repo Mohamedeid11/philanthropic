@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0868f5cc-8ccc-4415-970c-8227a693c574" name="philanthropic" url="http://www.bh-philanthropic.org">
+        <fileTransfer rootFolder="/public_html" host="www.bh-philanthropic.org" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

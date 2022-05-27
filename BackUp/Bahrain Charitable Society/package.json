@@ -1,0 +1,15 @@
+{
+    "name": "Bahrain_Charitable_Society",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "HP",
+    "contributors": [
+    ],
+    "dependencies": {}
+}

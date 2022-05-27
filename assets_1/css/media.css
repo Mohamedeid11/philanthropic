@@ -1,0 +1,21 @@
+@media (max-width: 576px){
+
+    /*start navbar*/
+    a.navbar-brand{
+        width: 50% !important
+    }
+    .navbar span.mx-2.h6{
+        font-size: 2rem !important
+    }
+    .navbar img.img-fluid.w-25{
+        width: 13% !important
+    }
+    .navbar .end_nav .dropdown-toggle::before{
+        border: none
+    }
+    .last_nav .position-absolute.w-100{
+        left: 0px !important;
+        top: -5px !important
+    }
+
+}
